@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        jcenter()
+        google()
+        mavenCentral() // 替换 jcenter() 为 mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.1'
@@ -9,6 +10,7 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        google()
+        mavenCentral() // 替换 jcenter() 为 mavenCentral()
     }
 }
